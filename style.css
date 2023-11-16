@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: fonta;
+    src: url(Alloha.otf);
+}
+
+@font-face {
+    font-family:yes;
+    src: url(Black\ Future.otf);
+}
+
+body{
+    font-family: sans-serif;
+    background: #484848;
+    color: #fff;
+    margin: 0 auto;
+    background-image: url(hollowed-boxes.png);
+
+}
+
+h2{
+    text-align: center;
+    font-family: yes;
+
+}
+
+.col{
+    font-family: fonta;
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+    box-sizing: border-box;
+
+}
+
+.price-box{
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.price-box .header{
+    background:#259073;
+    color: #fff;
+    font: 25px;
+}
+
+.price-box .header.header-green{
+    background: #4caf50;
+}
+
+.price-box li{
+    padding: 20px;
+    border-bottom: 20px solid #a8e7ca;
+    text-align: center;
+}
+
+.price-box li:hover{
+    background: #afafaf;
+}
+
+.btn{
+    background: #000000;
+    border: none;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+
+@media (max-width: 760px){
+    .col{
+        width: 100%;
+    }
+}
